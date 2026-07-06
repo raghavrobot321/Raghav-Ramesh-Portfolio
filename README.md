@@ -1,2 +1,1 @@
-# Website-Prototype
-Prototype by Raghav Ramesh
+# Portfolio by Raghav Ramesh
