@@ -1,8 +1,16 @@
 // Raghav Ramesh
 // Calendar for Improvement App
 
-import javax.*;
+// Scanner
 import java.util.Scanner;
+
+// Javafx imports
+import javafx.application.Application;
+import javafx.scene.Scene;
+import javafx.scene.control.Label;
+import javafx.scene.layout.StackPane;
+import javafx.stage.Stage;
+
 
 
 public class calendar 
@@ -11,5 +19,6 @@ public class calendar
     {
         System.out.println("Setting up program");
     
+
     }
 }
