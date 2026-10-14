@@ -12,13 +12,19 @@ import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
 
-
 public class calendar 
 {
+
+
+
+
+
+
+    // Start app
     public static void main(String[] args)
     {
         System.out.println("Setting up program");
     
-
+        launch();
     }
 }
