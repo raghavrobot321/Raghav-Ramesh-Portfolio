@@ -19,6 +19,6 @@ public class calendar
     {
         System.out.println("Setting up program");
     
-        launch();
+        initialize();
     }
 }
