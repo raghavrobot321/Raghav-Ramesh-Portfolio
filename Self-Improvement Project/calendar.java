@@ -14,13 +14,6 @@ import javafx.stage.Stage;
 
 public class calendar 
 {
-
-    
-
-
-
-
-
     // Start app
     public static void main(String[] args)
     {
