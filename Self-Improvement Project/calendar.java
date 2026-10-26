@@ -12,10 +12,8 @@ import javafx.scene.text.Text;
 import javafx.scene.layout.StackPane;
 import javafx.stage.Stage;
 
-
 public class calendar 
 {
-
     public static void initialize()
     {
         // Create a new stage
