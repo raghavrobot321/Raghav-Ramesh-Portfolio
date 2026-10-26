@@ -1,4 +1,4 @@
-// Frontend Java Script for Weather App
+package Files;// Frontend Java Script for Weather App
 // Raghav Ramesh
 
 
@@ -254,13 +254,13 @@ public class Frontend_Java_WeatherApp
             condLabel.setText(condition.toUpperCase());
 
             // Update icon
-            String iconPath = "clear.png";
+            String iconPath = "Icons/clear.png";
             String lowerCondition = condition.toLowerCase();
 
             // Set icon based on weather condition
             if (lowerCondition.contains("tornado")) 
             {
-                iconPath = "tornado.png";
+                iconPath = "Icons/tornado.png";
             }
             else if (lowerCondition.contains("squall") || lowerCondition.contains("wind")) 
             {
@@ -268,19 +268,19 @@ public class Frontend_Java_WeatherApp
             }
             else if (lowerCondition.contains("cloud")) 
             {
-                iconPath = "clouds.png";
+                iconPath = "Icons/clouds.png";
             }
             else if (lowerCondition.contains("rain") || lowerCondition.contains("drizzle") || lowerCondition.contains("thunderstorm")) 
             {
-                iconPath = "rain.png";
+                iconPath = "Icons/rain.png";
             }
             else if (lowerCondition.contains("snow")) 
             {
-                iconPath = "snow.png";
+                iconPath = "Icons/snow.png";
             }
             else if (lowerCondition.contains("clear")) 
             {
-                iconPath = "clear.png";
+                iconPath = "Icons/clear.png";
             }
 
             // Change icon
