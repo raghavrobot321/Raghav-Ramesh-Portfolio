@@ -1,2 +1,4 @@
 # Weather App with Recommendations
 A BASIC, YET ADVANCED WEATHER APP WITH PROPER CLOTHING RECOMMENDATIONS ALONGSIDE BOTH TEMPERATURES BEING DISPLAYED.
+
+Some work in progress is still happpening though.
