@@ -6,19 +6,23 @@ package com.habitapp;
 // Scanner
 
 // Javafx imports
+
 import javafx.application.Application;
+
+// Display and interaction imports
 import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+
+// Grid and Border imports
 import javafx.scene.layout.BorderPane;
 import javafx.scene.layout.GridPane;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
-public class Calendar extends Application
-{
+public class Calendar extends Application {
     @Override
     public void start(Stage primaryStage)
     {
