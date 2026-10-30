@@ -1,9 +1,9 @@
 # IntelliJ specific files
-.idea/
+Extra Filesz/.idea/
 *.iml
 
 # Compiled output bytes / build folders
-out/
+Extra Filesz/out/
 bin/
 target/
 
