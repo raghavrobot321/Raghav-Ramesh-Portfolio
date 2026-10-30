@@ -4,6 +4,7 @@ package com.habitapp;
 // Calendar for Improvement App
 
 // Scanner
+import java.util.Scanner;
 
 // Javafx imports
 
