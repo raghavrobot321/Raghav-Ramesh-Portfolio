@@ -1,0 +1,12 @@
+# IntelliJ specific files
+.idea/
+*.iml
+
+# Compiled output bytes / build folders
+out/
+bin/
+target/
+
+# Operating system cache files
+.DS_Store
+Thumbs.db
