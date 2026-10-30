@@ -1,1 +1,0 @@
-Improvement App for wellbeing, health, and habit support
