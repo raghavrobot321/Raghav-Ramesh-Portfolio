@@ -22,32 +22,58 @@ public class Calendar extends Application
     @Override
     public void start(Stage primaryStage)
     {
-        // Create a new stage
-        Stage stage = new Stage();
-        stage.setTitle("Self-Improvement Habit Tracker");
+        primaryStage.setTitle("Self-Improvement Habit Tracker");
 
-        // Add BorderPane
+        // Main BorderPane layout
         BorderPane rootLayout = new BorderPane();
 
-        // Create a new label
+        // Title banner
         Label titleLabel = new Label("My Habit & Wellness Tracker");
         titleLabel.setStyle("-fx-font-size: 18px; -fx-font-weight: bold; -fx-padding: 10px;");
-        rootLayout.setTop(titleLabel)
+        rootLayout.setTop(titleLabel);
 
-        StackPane layout = new StackPane();
-        layout.getChildren().add(label);
+        // Sidebar for habits and activities
 
-        // Create a new scene
-        Scene scene = new Scene(layout, 300, 250);
-        stage.setScene(scene);
-        stage.show();
+        // Make sidebar with 10 pixel spacing
+        VBox sidebar = new VBox(10);
+
+        sidebar.setStyle("-fx-background-color: #eaeaea; -fx-padding: 15px;");
+        sidebar.getChildren().addAll(
+                new Label("Daily Habits:"),
+                new Button("💧 Drink Water!"),
+                new Button("🧘 Meditate 10 mins."),
+                new Button("📚 Read 5 pages of your favorite book!")
+        );
+        rootLayout.setLeft(sidebar);
+
+        // Add 7x5 calendar grid in the middle
+        GridPane calendarGrid = createCalendarGrid();
+        rootLayout.setCenter(calendarGrid);
+
+        // Create the window to be displayed
+        Scene scene = new Scene(rootLayout, 600, 400);
+        primaryStage.setScene(scene);
+        primaryStage.show();
     }
 
-    // Start app
+    // Calendar Generator
+    private GridPane createCalendarGrid()
+    {
+        // Create and set positions and gapping
+        GridPane grid = new GridPane();
+        grid.setAlignment(Pos.CENTER);
+        grid.setHgap(8);
+        grid.setVgap(8);
+
+        // Sample label to represent the calendar for now
+        Label calendarPlaceholder = new Label("7x5 Calendar Grid Goes Here");
+        grid.add(calendarPlaceholder, 0, 0);
+
+        return grid;
+    }
+
     public static void main(String[] args)
     {
-        System.out.println("Setting up program");
-
         launch(args);
     }
 }
