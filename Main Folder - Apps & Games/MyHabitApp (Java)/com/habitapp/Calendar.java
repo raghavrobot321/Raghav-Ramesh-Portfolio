@@ -45,9 +45,9 @@ public class Calendar extends Application
         sidebar.setStyle("-fx-background-color: #eaeaea; -fx-padding: 15px;");
         sidebar.getChildren().addAll(
                 new Label("Daily Habits:"),
-                new Button("💧 Drink Water!"),
-                new Button("🧘 Meditate 10 mins."),
-                new Button("📚 Read 5 pages of your favorite book!")
+                new Button("Drink Water!"),
+                new Button("Meditate 10 mins."),
+                new Button("Read 5 pages of your favorite book!")
         );
         rootLayout.setLeft(sidebar);
 
@@ -64,7 +64,7 @@ public class Calendar extends Application
     // Calendar Generator
     private GridPane createCalendarGrid()
     {
-        // Create and set positions and gapping
+        // Create and set positions with 8px gapping
         GridPane grid = new GridPane();
         grid.setAlignment(Pos.CENTER);
         grid.setHgap(8);
