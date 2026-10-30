@@ -22,7 +22,8 @@ import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
 
 
-public class Calendar extends Application {
+public class Calendar extends Application
+{
     @Override
     public void start(Stage primaryStage)
     {
