@@ -4,8 +4,13 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
+        {
+            "type": "java",
+            "name": "Calendar",
+            "request": "launch",
+            "mainClass": "com.habitapp.Calendar",
+            "projectName": "Raghav-Ramesh-Portfolio_9c9293fe"
+        },
         {
             "type": "jdk",
             "request": "launch",
