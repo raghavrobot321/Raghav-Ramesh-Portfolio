@@ -78,6 +78,7 @@ public class Calendar extends Application
         return grid;
     }
 
+    // Start GUI
     public static void main(String[] args)
     {
         launch(args);
