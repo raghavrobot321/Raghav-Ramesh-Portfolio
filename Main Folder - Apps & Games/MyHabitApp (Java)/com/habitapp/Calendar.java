@@ -81,7 +81,7 @@ public class Calendar extends Application
     // Start GUI
     public static void main(String[] args)
     {
-        System.out.println("Launching Calendar Application...");
+        System.out.println("Launching Calendar Application");
         launch(args);
     }
 }
